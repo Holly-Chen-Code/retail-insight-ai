@@ -1,0 +1,11 @@
+# Data handling
+pandas>=2.2
+
+# Loading secrets (like the Gemini API key) from a .env file
+python-dotenv>=1.0
+
+# Testing
+pytest>=8.0
+
+# Notebooks for data exploration
+jupyterlab>=4.0

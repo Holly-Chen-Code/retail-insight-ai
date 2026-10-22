@@ -1,0 +1,22 @@
+# Secrets - never commit these
+.env
+
+# Virtual environment
+.venv/
+
+# Python clutter
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Data: the Olist dataset is not ours to redistribute, and retail.db can be rebuilt
+data/raw/*
+!data/raw/.gitkeep
+data/*.db
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Editor and OS files
+.vscode/
+.DS_Store
