@@ -9,3 +9,6 @@ pytest>=8.0
 
 # Notebooks for data exploration
 jupyterlab>=4.0
+
+# Gemini API (LLM provider)
+google-genai>=1.0
